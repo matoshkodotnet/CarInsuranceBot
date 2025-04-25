@@ -1,0 +1,41 @@
+# db
+*.db
+*.db-shm
+*.db-wal
+
+# bin
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+.vscode/
+*.sln.docstates
+.vs/
+
+# packages
+packages/
+*.nupkg
+
+# tests
+TestResults/
+*.trx
+*.xml
+
+# temp
+*.log
+*.tmp
+temp/
+
+# docker
+docker-compose.yml
+docker-compose.override.yml
+*.dockerignore
+
+# http tests
+*.http
+
+# Config
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
